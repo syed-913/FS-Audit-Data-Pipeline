@@ -1,0 +1,4 @@
+{
+  "os_flavor": "cat /etc/*release | grep -iw \"name\" | awk -F '=' '{print $2}' | tr -d '\"'",
+  "df_cmd": "df -Th | grep -Ev \"tmpfs|efivarfs\" | awk 'NR!=1' | sed -E 's/%//g' | sed -E 's/ +/,/g' | sed -E \"s/$/,$(hostname -i)/g\" | sed -E \"s/$/,$(hostname)/g\" | sed -E \"s/$/,$(date '+%F %T')/g\" > FS_report.csv"
+}

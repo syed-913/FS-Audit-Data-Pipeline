@@ -1,0 +1,5 @@
+/dev/mapper/ubuntu--vg-ubuntu--lv,ext4,216G,139G,67G,68,/,127.0.1.1,Salty,2025-03-27 03:21:35
+/dev/nvme0n1p2,ext4,2.0G,475M,1.4G,26,/boot,127.0.1.1,Salty,2025-03-27 03:21:35
+/dev/nvme0n1p1,vfat,1.1G,6.2M,1.1G,1,/boot/efi,127.0.1.1,Salty,2025-03-27 03:21:35
+/dev/sda1,ext4,492G,318G,149G,69,/home/syed-ammar/Main,127.0.1.1,Salty,2025-03-27 03:21:35
+/dev/mapper/gaming_partition-rdr2,ext4,295G,120G,160G,43,/home/syed-ammar/Main/Games/RDR2,127.0.1.1,Salty,2025-03-27 03:21:35
